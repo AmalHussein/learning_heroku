@@ -3,9 +3,9 @@
 <table>
   <thead>
     <tr>
-      <th>String</th>
-      <th>Integer</th>
-      <th>String</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Age</th>
       <th></th>
       <th></th>
       <th></th>
@@ -15,9 +15,9 @@
   <tbody>
     <% @users.each do |user| %>
       <tr>
-        <td><%= user.string %></td>
-        <td><%= user.integer %></td>
-        <td><%= user.string %></td>
+        <td><%= user.name %></td>
+        <td><%= user.address %></td>
+        <td><%= user.age %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>

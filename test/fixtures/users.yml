@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  string: 
-  integer: 
-  string: 
+  name: MyString
+  address: MyString
+  age: 1
 
 two:
-  string: 
-  integer: 
-  string: 
+  name: MyString
+  address: MyString
+  age: 1
